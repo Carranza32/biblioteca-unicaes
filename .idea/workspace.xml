@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b375da89-0120-4e0d-84cb-070751c6af15" name="Default Changelist" comment="composer">
-      <change beforePath="$PROJECT_DIR$/.idea/biblioteca_sqlserver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/biblioteca_sqlserver.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="b375da89-0120-4e0d-84cb-070751c6af15" name="Default Changelist" comment="faker dev  require">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +171,7 @@
       <updated>1623247250469</updated>
       <workItem from="1623247252388" duration="208000" />
       <workItem from="1643804206250" duration="117000" />
-      <workItem from="1643845352004" duration="1291000" />
+      <workItem from="1643845352004" duration="3283000" />
     </task>
     <task id="LOCAL-00001" summary="composer">
       <created>1643845861500</created>
@@ -181,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643845861500</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="faker require">
+      <created>1643846681241</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643846681241</updated>
+    </task>
+    <task id="LOCAL-00003" summary="faker dev  require">
+      <created>1643846973423</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643846973423</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +214,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="composer" />
-    <option name="LAST_COMMIT_MESSAGE" value="composer" />
+    <MESSAGE value="faker require" />
+    <MESSAGE value="faker dev  require" />
+    <option name="LAST_COMMIT_MESSAGE" value="faker dev  require" />
   </component>
 </project>
