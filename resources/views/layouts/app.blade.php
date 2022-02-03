@@ -15,6 +15,7 @@
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
+        <link rel="icon" href="{{ asset('images/logo-UNICAES-png.png') }}">
         @livewireStyles
     </head>
     <body class="font-sans antialiased">

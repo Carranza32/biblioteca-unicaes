@@ -15,6 +15,8 @@ class Book extends Model
 
     protected $guarded = ['id'];
 
+    protected $appends = ['has_loan'];
+
     public function fromDateTime($value)
     {
         return Carbon::parse(parent::fromDateTime($value))->format('Y-d-m H:i:s');
@@ -33,5 +35,9 @@ class Book extends Model
     public function editorial()
     {
         return $this->belongsTo(Editorial::class);
+    }
+
+    public function getHasLoanAttribute(){
+        return Loan::where('book_id', $this->id)->where('is_active', 1)->first();
     }
 }

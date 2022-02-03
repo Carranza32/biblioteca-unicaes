@@ -15,6 +15,9 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+
+    <link rel="icon" href="{{ asset('images/logo-UNICAES-png.png') }}">
+
 </head>
 
 <body class="antialiased">

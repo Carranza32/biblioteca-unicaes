@@ -81,8 +81,10 @@ class LibroController extends Controller
     {
         $libro = Book::where('id', $id)->where('is_active', 1)->first();
 
+        $prestamoActivo = Loan::where('book_id', $libro->id)->where('is_active', 1)->first();
+
         //libro disponible para prestamo
-        if ($libro == NULL) {
+        if ($prestamoActivo == NULL || $libro->stock > 0) {
 
             Loan::create([
                 'user_id' => Auth::user()->id,
@@ -93,7 +95,7 @@ class LibroController extends Controller
             return redirect()->route('dashboard')->with('status', 'Libro prestado.');
         }
 
-        return redirect()->back()->with('status', 'Error al prestar el libro.');
+        return redirect()->back()->with('status', 'Libro no disponible.');
     }
 
    /**

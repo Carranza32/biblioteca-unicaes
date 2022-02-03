@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b375da89-0120-4e0d-84cb-070751c6af15" name="Default Changelist" comment="faker dev  require">
+    <list default="true" id="b375da89-0120-4e0d-84cb-070751c6af15" name="Default Changelist" comment="app name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LibroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LibroController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Book.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/show-books.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/show-books.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="4" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -145,13 +151,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\LaravelProjects\biblioteca-unicaes\app\Http\Controllers" />
       <recent name="E:\LaravelProjects\biblioteca-unicaes" />
     </key>
   </component>
@@ -171,7 +178,8 @@
       <updated>1623247250469</updated>
       <workItem from="1623247252388" duration="208000" />
       <workItem from="1643804206250" duration="117000" />
-      <workItem from="1643845352004" duration="3283000" />
+      <workItem from="1643845352004" duration="4104000" />
+      <workItem from="1643929483667" duration="2356000" />
     </task>
     <task id="LOCAL-00001" summary="composer">
       <created>1643845861500</created>
@@ -194,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643846973423</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="app name">
+      <created>1643849964841</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643849964841</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +231,7 @@
     <MESSAGE value="composer" />
     <MESSAGE value="faker require" />
     <MESSAGE value="faker dev  require" />
-    <option name="LAST_COMMIT_MESSAGE" value="faker dev  require" />
+    <MESSAGE value="app name" />
+    <option name="LAST_COMMIT_MESSAGE" value="app name" />
   </component>
 </project>
