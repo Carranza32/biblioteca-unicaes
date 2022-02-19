@@ -3,12 +3,9 @@
 namespace App\Http\Livewire;
 
 use App\Models\Author;
-use App\Models\Autor;
-use App\Models\Book;
-use App\Models\Categoria;
 use App\Models\Category;
 use App\Models\Editorial;
-use App\Models\Libro;
+use App\Models\Book;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Livewire\Component;
@@ -17,7 +14,7 @@ class LiveModal extends Component
 {
     public $showModal = 'hidden';
 
-    public Book $book;
+    public $book;
 
     public $updateMode = false;
 
@@ -31,7 +28,6 @@ class LiveModal extends Component
             "autores" => Author::all(),
             "categorias" => Category::all(),
             "editoriales" => Editorial::all(),
-            "idiomas" => ['es', 'en'],
         ]);
     }
 

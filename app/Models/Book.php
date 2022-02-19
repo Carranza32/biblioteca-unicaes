@@ -17,10 +17,10 @@ class Book extends Model
 
     protected $appends = ['has_loan'];
 
-    public function fromDateTime($value)
-    {
-        return Carbon::parse(parent::fromDateTime($value))->format('Y-d-m H:i:s');
-    }
+    // public function fromDateTime($value)
+    // {
+    //     return Carbon::parse(parent::fromDateTime($value))->format('Y-d-m H:i:s');
+    // }
 
     public function author()
     {

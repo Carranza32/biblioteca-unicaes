@@ -14,10 +14,10 @@ class Author extends Model
 
     protected $guarded = ['id'];
 
-    public function fromDateTime($value)
-    {
-        return Carbon::parse(parent::fromDateTime($value))->format('Y-d-m H:i:s');
-    }
+    // public function fromDateTime($value)
+    // {
+    //     return Carbon::parse(parent::fromDateTime($value))->format('Y-d-m H:i:s');
+    // }
 
     public function books()
     {
