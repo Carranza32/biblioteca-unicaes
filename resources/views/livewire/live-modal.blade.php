@@ -1,6 +1,6 @@
 <div>
     {{-- wire:submit.prevent='actualizar' --}}
-    <form method="post" action="{{ route( $updateMode ? 'books.update' : 'books.store', $book) }}">
+    <form method="post" action="{{ route( $updateMode ? 'books.update' : 'books.store', $book ?? null) }}">
         @csrf
         @if ($updateMode)
             @method('Put')
@@ -67,7 +67,7 @@
                     </div> --}}
                     <div class="mb-3">
                         <x-label for="paginas">Paginas</x-label>
-                        <x-input id="paginas" class="block mt-1 w-full" type="text" name="pages" required
+                        <x-input id="paginas" class="block mt-1 w-full" type="number" min="0" name="pages" required
                             {{-- wire:model="book.pages" --}}
                             :value="$book->pages ?? ''" />
                     </div>
@@ -79,7 +79,7 @@
                     </div>
                     <div class="mb-3">
                         <x-label for="existencias">Existencias</x-label>
-                        <x-input id="existencias" class="block mt-1 w-full" type="text" name="stock" required
+                        <x-input id="existencias" class="block mt-1 w-full" type="number" min="0" name="stock" required
                             {{-- wire:model="book.stock" --}}
                             :value="$book->stock ?? 'vacio'" />
                     </div>

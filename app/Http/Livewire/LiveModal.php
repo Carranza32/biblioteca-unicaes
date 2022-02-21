@@ -14,7 +14,7 @@ class LiveModal extends Component
 {
     public $showModal = 'hidden';
 
-    public $book;
+    public $book = null;
 
     public $updateMode = false;
 
