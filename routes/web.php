@@ -22,7 +22,7 @@ Route::get('biblioteca', function () {
     return view('biblioteca');
 })->name('biblioteca');
 
-Route::middleware(['auth'])->group(function () {
+Route::middleware(['auth', 'verified'])->group(function () {
     Route::resource('books', LibroController::class);
     Route::get('prestamo/{id}', [LibroController::class, 'prestamo'])->name('prestamo');
     Route::get('dashboard', [LibroController::class, 'dashboard'])->name('dashboard');

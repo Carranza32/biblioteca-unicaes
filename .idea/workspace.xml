@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b375da89-0120-4e0d-84cb-070751c6af15" name="Default Changelist" comment="laravel espanol y registro">
-      <change beforePath="$PROJECT_DIR$/.idea/biblioteca_sqlserver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/biblioteca_sqlserver.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/LiveModal.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/LiveModal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/live-modal.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/live-modal.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="b375da89-0120-4e0d-84cb-070751c6af15" name="Default Changelist" comment="paginas number" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +176,7 @@
       <workItem from="1643929483667" duration="2547000" />
       <workItem from="1643932323677" duration="1060000" />
       <workItem from="1645312266973" duration="728000" />
-      <workItem from="1645408862271" duration="530000" />
+      <workItem from="1645408862271" duration="1203000" />
     </task>
     <task id="LOCAL-00001" summary="composer">
       <created>1643845861500</created>
@@ -226,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645312395708</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="paginas number">
+      <created>1645409424879</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645409424880</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +252,7 @@
     <MESSAGE value="app name" />
     <MESSAGE value="libro disponible" />
     <MESSAGE value="laravel espanol y registro" />
-    <option name="LAST_COMMIT_MESSAGE" value="laravel espanol y registro" />
+    <MESSAGE value="paginas number" />
+    <option name="LAST_COMMIT_MESSAGE" value="paginas number" />
   </component>
 </project>
